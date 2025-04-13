@@ -8,6 +8,8 @@ We built an AI-powered agent that helps users write RFPs interactively. Users pr
 
 To further enhance draft quality and relevance, we integrated **Retrieval-Augmented Generation (RAG)** into the pipeline. Based on the user's inputs — such as domain, problem, or goals — the system retrieves **similar real-world proposals** from a vector-based knowledge base. These examples are used to guide tone, structure, and language, allowing the model to produce **personalized, domain-aware RFPs** that reflect field-specific conventions. This significantly reduces the “blank page” problem while boosting confidence and clarity for users.
 
+![image](https://github.com/user-attachments/assets/928a71ff-678e-47cd-a9a4-71dab8c8345e)
+
 ## 🧩 Overview  
 Our system is built with the **LangGraph** framework, which enables stateful, multi-step workflows across different user-agent interactions. We connected this backend agent with a **Streamlit** frontend, allowing users to engage with the agent through a simple web interface. The agent collects inputs, retrieves relevant examples, generates drafts, and allows refinements until the user is satisfied.
 
